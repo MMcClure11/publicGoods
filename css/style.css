@@ -8,6 +8,28 @@ body {
  height: 60vh;
 }
 
+.hero-text {
+  width: 25%;
+  margin: 5rem;
+  padding-top: 2rem;
+}
+
+.hero-button {
+  outline: none;
+}
+
+.bamboo-div {
+  background-image: url(../images/bamboo_desktop.jpg); 
+  background-size: cover;
+  height: 60vh;
+  color: white;
+}
+
+.bamboo-text {
+  width: 25%;
+  margin: 5rem;
+  padding-top: 2rem;
+}
 
 .bamboo-desktop {
   width: 90%
@@ -26,6 +48,19 @@ body {
 .pad-images {
   width: 20%;
 
+}
+
+.pad-images {
+  width: 20%;
+}
+@media (max-width: 479px) {
+  .collection {
+    width: 100%;
+}
+  .pad-images {
+    display: block;
+    width: 100%;
+  }
 }
 
 .new-to-public-goods-image {
