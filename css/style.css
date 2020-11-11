@@ -16,6 +16,7 @@ body {
 
 .hero-button {
   outline: none;
+  background-color: orange;
 }
 
 @media (max-width: 479px) {
