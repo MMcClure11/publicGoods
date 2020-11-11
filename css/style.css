@@ -2,9 +2,12 @@ body {
   background-color: white;
 }
 
-.menstraul-hero-image {
-  width: 100%;
+.hero-div {
+ background-image: url(../images/menstraul-hero_desktop.jpg); 
+ background-size: cover;
+ height: 60vh;
 }
+
 
 .bamboo-desktop {
   width: 90%
