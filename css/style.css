@@ -23,9 +23,10 @@ body {
      background-image: url(../images/menstrual-hero_mobile.jpg); 
   }
   .hero-text {
-    width: 25%;
+    width: 80%;
     text-align: center;
     font-size: 12px; 
+    margin: 1rem;
   }
 }
 
@@ -42,9 +43,17 @@ body {
   padding-top: 2rem;
 }
 
-.bamboo-desktop {
-  width: 90%
-  
+@media (max-width: 479px) {
+  .bamboo-div {
+     background-image: url(../images/bamboo_mobile.jpg); 
+     height: 30vh;
+  }
+  .bamboo-text {
+    width: 75%;
+    text-align: center;
+    font-size: 12px; 
+    margin: 1.5rem;
+  }
 }
 
 .pad-detail-desktop {
