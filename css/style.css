@@ -56,9 +56,30 @@ body {
   }
 }
 
-.pad-detail-desktop {
-  width: 50%;
+.pad-info-div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
+
+.pad-detail-div {
+  background-image: url(../images/pad_detail_desktop.jpg); 
+  width: 50%;
+  height: 40vh;
+  background-size: cover;
+  align-content: stretch;
+  margin: 1rem;  
+}
+
+.pad-in-hand-div {
+  background-image: url(../images/pad_in_hand_desktop.jpg); 
+  width: 50%;
+  height: 40vh;
+  background-size: cover;
+  margin: 1rem;
+}
+
+
 
 .pad-in-hand-desktop {
   width: 50%;
@@ -66,14 +87,13 @@ body {
 }
 
 .pad-images {
-  width: 20%;
-
+  width: 100%;
 }
-
-.pad-images {
+.pad-div {
   width: 20%;
+  display: inline-block;
+  margin: 1rem;
 }
-
 @media (max-width: 479px) {
   .collection {
     width: 100%;
@@ -81,6 +101,10 @@ body {
   .pad-images {
     display: block;
     width: 100%;
+  }
+  .pad-div {
+    width: 100%;
+    margin: 0;
   }
 }
 
