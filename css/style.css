@@ -79,7 +79,23 @@ body {
   margin: 1rem;
 }
 
-
+@media (max-width: 479px) {
+  .pad-info-div {
+    width: 100%;
+    display: block;
+  }
+  .pad-detail-div {
+    background-image: url(../images/pad_detail_mobile.jpg); 
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+  }
+  .pad-in-hand-div {
+    background-image: url(../images/pad_in_hand_mobile.jpg); 
+    width: 100%;
+    background-size: cover;
+  }
+}
 
 .pad-in-hand-desktop {
   width: 50%;
