@@ -1,0 +1,30 @@
+body {
+  background-color: white;
+}
+
+.menstraul-hero-image {
+  width: 100%;
+}
+
+.bamboo-desktop {
+  width: 90%
+  
+}
+
+.pad-detail-desktop {
+  width: 50%;
+}
+
+.pad-in-hand-desktop {
+  width: 50%;
+  float: right;
+}
+
+.pad-images {
+  width: 20%;
+
+}
+
+.new-to-public-goods-image {
+  width: 100%;
+}
